@@ -1,0 +1,37 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "Flipkart",
+        "Description":"Developed 4 autonomous warehouse robots using ROS, Arduino & RF. Used OpenCV for location & orientation from video. Dijkstra algorithm for movement path & RF module for velocity control.",
+        "Title":"Autonomous Robots for warehouse comissioning tasks"
+      },
+      {
+        "id": 2,
+        "name": "Exoskeleton",
+        "Description":"This project involved designing and fabricating a lower limb exoskeleton prototype using SolidWorks. Additionally, the project required configuration and implementation of the ROS environment for data processing, transmission, and robot control. MQTT protocol was also utilized for wireless data transmission.",
+        "Title":"LowerLimb Exoskeleton"
+    },
+    {
+        "id": 3,
+        "name": "DairyBike",
+        "Description":"This project involved designing and simulating an autonomous self-balancing bike with an attached arm using SolidWorks and CoppeliaSim. LRQ controller was implemented to balance the bike while Stanley predictive controller was used for autonomous steering. The project also involved deriving equations for the robotic arm and implementing its controller.",
+        "Title":"Autonomous Self balancing bike"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "CTT",
+        "Description":"Under the supervision of Dr. Srinivasa Ramanujam Kannan, this project involved using Cloud Top Temperature data extracted from the INSAT‐3D satellite for the Bay of Bengal region. The data was converted to time series and analyzed using the TISEAN package through statistical analysis.",
+        "Title":"Cyclone Prediction using statistical analysis"
+    }
+    ,
+    {
+        "id": 5,
+        "name": "DroneBase",
+        "Description":"This project aims to design and develop a lightweight, modular bot capable of moving on solar panels, scanning QR codes, and wirelessly transmitting data. The previous attempt was heavy, wobbling, and not modular. The proposed solution includes modular parts, screw mechanisms, a T-section frame, and ATV wheels. A 2D QR code scanner and a servo motor are used for proper positioning and alignment. The bot weighs around 10kg and can be easily assembled and disassembled without a technician.",
+        "Title":"Solar Panel Robot"
+    }
+
+]
+  }

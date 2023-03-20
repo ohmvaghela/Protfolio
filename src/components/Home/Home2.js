@@ -4,10 +4,11 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  // AiOutlineTwitter,
+  // AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import solidworks from "../../Assets/solidworksPurple2.svg"
 
 function Home2() {
   return (
@@ -19,37 +20,52 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              I have a passion for robotics and have honed my skills in areas
+              such as
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> SolidWorks, ROS, and electronics. </b>
+              </i>
+              &nbsp; My experience has allowed me to develop innovative solutions
+              for autonomous robotic systems, ensuring seamless 
+              <i>
+                <b className="purple"> integration </b>
+              </i>
+              between 
+              <i>
+                <b className="purple"> hardware and software. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My expertise in 
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple"> SolidWorks </b>
               </i>
+               enables me to design and simulate robotic systems with precision, 
+              while my proficiency in 
+              <i>
+                <b className="purple"> ROS </b>
+              </i>
+              enables me to develop efficient and 
+              <i>
+                <b className="purple"> robust software  </b>
+              </i>
+              solutions 
+              for complex robotic tasks. In addition, my knowledge of 
+              <i>
+                <b className="purple"> electronics  </b>
+              </i>
+               
+              enables me to create circuits and control systems that 
+              integrate seamlessly with robotic systems.
+              
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+
+              I am constantly seeking to expand my skillset and stay up-to-date 
+              with the latest trends and technologies in robotics development. 
+              I am excited about the future of robotics and am committed to 
+              developing innovative solutions that will transform the industry.
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +83,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/ohmvaghela"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +91,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -84,10 +100,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/ohm-vaghela/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,12 +113,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://grabcad.com/ohm.vaghela-1/models"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                                <img
+                src={solidworks}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
                 </a>
               </li>
             </ul>

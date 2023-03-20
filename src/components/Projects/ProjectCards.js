@@ -1,40 +1,52 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+// import { CgWebsite } from "react-icons/cg";
+// import { BsGithub } from "react-icons/bs";
+import MyModal from "../modal/MyModal"
 
 function ProjectCards(props) {
+  const [modalShow, setModalShow] = React.useState(false);
+
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img className="project-card-view-image" variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
+        {/* ------------------------- Extra Buttons ------------------------------------ */}
+        {/* <Button variant="primary" id={props.id} target="_blank"> */}
+          {/* Know More */}
+          {/* <BsGithub /> &nbsp;
+          {props.isBlog ? "Blog" : "GitHub"} */}
+        {/* </Button> */}
+        {/* ------------------------- Extra Buttons End -------------------------------- */}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+        {props.name!=="CTT" &&
+        <Button variant="primary" onClick={() => setModalShow(true)}>
+         Know More
+       </Button>
+      }
+       <MyModal
+         show={modalShow}
+         onHide={() => setModalShow(false)}
+         modalheading = {props.title}
+         modaltext = {props.description}
+         modalname = {props.name}
+       >
+        </MyModal>
 
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
-        )}
+
       </Card.Body>
     </Card>
   );
 }
+
+ProjectCards.defaultProps = {
+  modaltext:'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'
+  ,modalheading:"Modal heading"
+};
+
 export default ProjectCards;
