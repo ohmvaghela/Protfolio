@@ -7,12 +7,17 @@ import MyModal from "../modal/MyModal"
 
 function ProjectCards(props) {
   const [modalShow, setModalShow] = React.useState(false);
-
+  const completedStatement = (completed) =>{
+    if(completed)
+      return "(completed)";
+    else
+      return "(in progress)";
+  }
   return (
     <Card className="project-card-view">
       <Card.Img className="project-card-view-image" variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title>{props.title} <br></br> {completedStatement(props.completed)}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>

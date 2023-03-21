@@ -42,7 +42,8 @@ function Projects() {
               name={FlipkartProp.name}
               imgPath={Flipkart}
               isBlog={false}
-              title={FlipkartProp.Title + " (Completed)"}
+              title={FlipkartProp.Title}
+              completed={true}
               // title="Autonomous Robots for warehouse comissioning tasks"
               description={FlipkartProp.Description}
             // ghLink="https://github.com/soumyajit4419/Chatify"
@@ -55,8 +56,9 @@ function Projects() {
               name={ExoProp.name}
               imgPath={Exoskeleton}
               isBlog={false}
-              title={ExoProp.Title+ " (In Progress)"}
+              title={ExoProp.Title}
               description={ExoProp.Description}
+              completed={false}
             // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
             // demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -67,8 +69,9 @@ function Projects() {
               name={DairyBikeProp.name}
               imgPath={DairyBike}
               isBlog={false}
-              title={DairyBikeProp.Title + " (Completed)"}
+              title={DairyBikeProp.Title }
               description={DairyBikeProp.Description}
+              completed={true}
             // ghLink="https://github.com/soumyajit4419/Editor.io"
             // demoLink="https://editor.soumya-jit.tech/"
             />
@@ -79,8 +82,9 @@ function Projects() {
               name={CTTProp.name}
               imgPath={CTT}
               isBlog={false}
-              title={CTTProp.Title+ " (Completed)"}
+              title={CTTProp.Title}
               description={CTTProp.Description}
+              completed={true}
             // ghLink="https://github.com/soumyajit4419/Plant_AI"
             // demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -91,8 +95,9 @@ function Projects() {
               name={DroneBaseProp.name}
               imgPath={DroneBase}
               isBlog={false}
-              title={DroneBaseProp.Title+ " (In Progress)"}
+              title={DroneBaseProp.Title}
               description={DroneBaseProp.Description}
+              completed={false}
             // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
             // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
