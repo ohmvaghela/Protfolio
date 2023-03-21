@@ -24,8 +24,9 @@ function MyModal(props) {
       size="xl"
       aria-labelledby="contained-modal-title-vcenter"
       centered
+      // style={{zIndex:"20"}}
     >
-      <div className='vertical-modal' >
+      <div className='vertical-modal'>
         {/* <div Container fluid className="about-section" > */}
 
         {/* <Modal.Header closeButton>
@@ -41,7 +42,7 @@ function MyModal(props) {
           </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} style={{zIndex:"20000000000000020"}}>Close</Button>
         </Modal.Footer>
       </div>
     </Modal>

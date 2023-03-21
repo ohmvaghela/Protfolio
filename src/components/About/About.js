@@ -7,7 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import About2 from "./About2";
-
+import solidworks from "../../Assets/solidworks.svg"
 function About() {
   return (
     <Container fluid className="about-section">
@@ -46,7 +46,7 @@ function About() {
         </h1>
         <Toolstack />
         
-        <About2></About2>
+        {/* <About2></About2> */}
         {/* <Github /> */}
       </Container>
     </Container>
