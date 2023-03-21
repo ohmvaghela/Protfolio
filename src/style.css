@@ -666,6 +666,13 @@ button:focus {
 /* --------- */
 /* Resume */
 /* --------- */
+
+
+.CVButtonClass{
+  text-decoration: none!important;
+  color: white;
+}
+
 .My-Modal-conteiner{
   margin-top: 50px;
   z-index: 1;

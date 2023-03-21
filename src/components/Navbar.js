@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container >
         <Navbar.Brand href="/" className="d-flex" style={{}}>
-          <div className="top-left-logo">Ohm</div>
+          <div className="top-left-logo">Ohm Vaghela</div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
