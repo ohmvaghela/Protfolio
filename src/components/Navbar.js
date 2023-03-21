@@ -37,7 +37,7 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container>
+      <Container >
         <Navbar.Brand href="/" className="d-flex" style={{}}>
           <div className="top-left-logo">Ohm</div>
         </Navbar.Brand>

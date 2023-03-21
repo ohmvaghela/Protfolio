@@ -16,7 +16,7 @@ function FlipkartModal() {
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                     Autonomous Robots for warehouse comissioning tasks
                 </h1>
-                <YouTubeTest YTlink="iZGUXmR9zIY" />
+                <YouTubeTest YTlink="hQCdJO-4wfw" />
 
                 <Row style={{ justifyContent: "center", padding: "10px" }}>
                     <Col
@@ -61,10 +61,10 @@ function FlipkartModal() {
                     </Col>
                 </Row>
 
-
+{/* 
                 <div className="quote-card-view" style={{ justifyContent: "center", padding: "10px", fontSize: "50px" }}>
                     change youtube video
-                </div>
+                </div> */}
 
 
                 <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -73,7 +73,7 @@ function FlipkartModal() {
                         style={{ paddingTop: "120px", paddingBottom: "50px" }}
                         className="about-img"
                     >
-                        <YouTubeTest YTlink="5Ej_vqSPSwY" />
+                        <YouTubeTest YTlink="p6G3ub3R7Qo" />
                     </Col>
                     <Col
                         md={5}

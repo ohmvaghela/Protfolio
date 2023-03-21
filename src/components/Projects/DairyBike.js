@@ -5,12 +5,14 @@ import Particle from "../Particle";
 import Techstack from "../About/Techstack";
 // import Aboutcard from "./AboutCard";
 // import laptopImg from "../../Assets/about.png";
-import Toolstack from "../About/Toolstack";
+// import Toolstack from "../About/Toolstack";
 import YouTubeTest from "../youtube/YouTubeTest"
 import Stanley from "../../Assets/Projects/DairyBike/Stanley.jpeg";
 import StanleyPredicitve from "../../Assets/Projects/DairyBike/StanleyPredicitve.jpeg";
 import ArmIK1 from "../../Assets/Projects/DairyBike/ArmIK1.jpeg";
 import ArmIK2 from "../../Assets/Projects/DairyBike/ArmIK2.jpeg";
+import DB_front from "../../Assets/Projects/DairyBike/DB_front.png";
+
 function DairyBikeModal() {
     return (
         <Container fluid className="about-section">
@@ -73,9 +75,9 @@ function DairyBikeModal() {
                 </Row>
 
 
-                <div className="quote-card-view" style={{ justifyContent: "center", padding: "10px", fontSize: "50px" }}>
+                {/* <div className="quote-card-view" style={{ justifyContent: "center", padding: "10px", fontSize: "50px" }}>
                     <div className="purple">Add image of bike's front view from pdf of task 2</div>
-                </div>
+                </div> */}
 
 
                 <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -84,7 +86,7 @@ function DairyBikeModal() {
                         style={{ paddingTop: "120px", paddingBottom: "50px" }}
                         className="about-img"
                     >
-                        <img src={Stanley} alt="about" style={{ maxWidth: "500px", width: "400px", position: "relative", marginBottom: "20px" }} />
+                        <img src={DB_front} alt="about" style={{ maxWidth: "500px", width: "400px", position: "relative", marginBottom: "20px" }} />
                     </Col>
                     <Col
                         md={7}

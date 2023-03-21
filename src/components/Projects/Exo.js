@@ -17,7 +17,7 @@ import ROS from "../../Assets/Projects/Exo/ROS.png";
 
 function ExoModal() {
     return (
-        <Container fluid className="about-section">
+        <Container fluid className="about-section-modal">
             <Particle />
             <Container>
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
